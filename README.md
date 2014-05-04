@@ -2,7 +2,7 @@
 
 **This project is work-in-progress, [help](#contributions) is greatly appreciated!**
 
-A simple `Gruntfile` for Sublime Text package developers to validate XML and lint JSON files.
+A simple `Gruntfile` for Sublime Text package developers to test their XML and JSON files. Tests can be automated through [Travis CI](https://travis-ci.org/).
 
 Supported file types:
 
