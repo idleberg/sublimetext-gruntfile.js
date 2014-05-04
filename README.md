@@ -27,7 +27,9 @@ File extension         | Type | Function
 
 ## Usage
 
-Download the files using [git clone](http://git-scm.com/docs/git-clone) or the [`.zip`](https://github.com/idleberg/sublimetext-gruntfile.js/archive/master.zip) file option
+## Prerequisites
+
+Download the files using [git clone](http://git-scm.com/docs/git-clone) or the [`.zip`](https://github.com/idleberg/sublimetext-gruntfile.js/archive/master.zip) file option. Place the `Gruntfile.js` and `package.json` in the folder of your Sublime Text package (or whatever files you would like to test). Unless there is a `.gitignore` file in the same folder, you should copy it as well – or add `node_modules/` to an existing file.
  
 ### Basic Usage
 
