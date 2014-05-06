@@ -58,7 +58,7 @@ Next time when you're creating a package for Sublime Text, you can use the `Fetc
 
 ## Contributions
 
-I guess it would be more convenient to turn this into a Sublime Text package, but I don't have enough experience yet to get there. A good starting point could be a modified version of the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package. If you know Python, please get in touch!
+I guess it would be more convenient to turn this into a Sublime Text package, but I don't have enough experience yet to get there. A good starting point could be a modified version of the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package. If you know Python and would like to help, please get in touch!
 
 ## License
 
