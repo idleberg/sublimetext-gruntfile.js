@@ -8,7 +8,7 @@
  
  module.exports = function(grunt) {
 
- 	var jsonFiles = [
+    var jsonFiles = [
         '**/*.JSON-tmLanguage',
         '**/*.sublime-build',
         '**/*.sublime-commands',
@@ -21,49 +21,66 @@
         'messages.json'
     ];
 
-    var xmlFiles = [
-    	'**/*.plist',
-    	'**/*.sublime-snippet',
-    	'**/*.tmCommand',
-    	'**/*.tmLanguage',
-    	'**/*.tmPreferences',
-    	'**/*.tmSnippet'
+    var pyFiles = [
+        '*.py'
     ];
 
- 	grunt.initConfig({
+    var xmlFiles = [
+        '**/*.plist',
+        '**/*.sublime-snippet',
+        '**/*.tmCommand',
+        '**/*.tmLanguage',
+        '**/*.tmPreferences',
+        '**/*.tmSnippet'
+    ];
 
- 		// default task
-		jsonlint: {
-		  files: {
-		    src: jsonFiles
-		  }
-		},
+    grunt.initConfig({
 
- 		xml_validator: {
- 			files: {
- 				src: xmlFiles
- 			},
- 		},
+        // default task
+        jsonlint: {
+          files: {
+            src: jsonFiles
+          }
+        },
 
-		// watch task
+        xml_validator: {
+            files: {
+                src: xmlFiles
+            },
+        },
+
+        // watch task
         watch: {
-		    json: {
-		        files: jsonFiles,
-		        tasks: ['jsonlint']
-		    },
-		    xml: {
-		        files: xmlFiles,
-		        tasks: ['xml_validator']
-		    }
-		}
- 	});
+            json: {
+                files: jsonFiles,
+                tasks: ['jsonlint']
+            },
+            xml: {
+                files: xmlFiles,
+                tasks: ['xml_validator']
+            }
+        },
 
- 	grunt.loadNpmTasks('grunt-contrib-watch');
- 	grunt.loadNpmTasks('grunt-xml-validator');
- 	grunt.loadNpmTasks('grunt-jsonlint');
- 	grunt.registerTask('default', ['jsonlint', 'xml_validator']);
+        // pylint task, not yet part of default
+        pylint: {
+          files: {
+            options: {
+                errorsOnly: true
+            },
+            src: pyFiles
+          }
+        },
+
+    });
+
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-jsonlint');
+    grunt.loadNpmTasks('grunt-pylint');
+    grunt.loadNpmTasks('grunt-xml-validator');
+    grunt.registerTask('default', ['jsonlint', 'xml_validator']);
 
     // task shortcuts
- 	grunt.registerTask('json', 'jsonlint');
- 	grunt.registerTask('xml', 'xml_validator');
+    grunt.registerTask('json', 'jsonlint');
+    grunt.registerTask('py', 'pylint');
+    grunt.registerTask('xml', 'xml_validator');
  };
