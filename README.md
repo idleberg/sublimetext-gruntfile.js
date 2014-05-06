@@ -48,9 +48,17 @@ You also need to have npm (“Node package manager”) [installed](http://www.jo
 
 Support for Travis CI is already built in and enabled. All you need to do is [enable your project](https://travis-ci.org/profile) and start committing.
 
+### Fetch
+
+If you're already using the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package (available via Package Control), you can add the following to your `Fetch.sublime-settings` list of packages:
+
+    "sublimetext-gruntfile.js": "https://github.com/idleberg/sublimetext-gruntfile.js/archive/master.zip"
+
+Next time when you're creating a package for Sublime Text, you can use the `Fetch: Package` command to download all files from this repository to your current project folder. **Careful, as this currently overwrites your README.md!**
+
 ## Contributions
 
-I guess it would be more convenient to turn this into a Sublime Text (or npm) package, but I don't have enough experience yet to get there. Hence, I appreciate all help making this more useful for package developers.
+I guess it would be more convenient to turn this into a Sublime Text package, but I don't have enough experience yet to get there. A good starting point could be a modified version of the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package. If you know Python, please get in touch!
 
 ## License
 
