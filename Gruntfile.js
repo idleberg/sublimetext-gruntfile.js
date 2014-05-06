@@ -31,7 +31,8 @@
         '**/*.tmCommand',
         '**/*.tmLanguage',
         '**/*.tmPreferences',
-        '**/*.tmSnippet'
+        '**/*.tmSnippet',
+        '**/*.tmTheme'
     ];
 
     grunt.initConfig({

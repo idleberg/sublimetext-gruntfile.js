@@ -23,6 +23,7 @@ File extension         | Type | Function
 `.tmLanguage`          | XML  | [TextMate Language Grammars](http://manual.macromates.com/en/language_grammars)
 `.tmPreferences`       | XML  | [TextMate Preferences](http://manual.macromates.com/en/preferences_items)
 `.tmSnippet`           | XML  | [TextMate Snippets](http://manual.macromates.com/en/snippets)
+`.tmTheme`             | XML  | [TextMate Snippets](http://manual.macromates.com/en/themes)
 `messages.json`        | JSON | [Package Messaging](https://sublime.wbond.net/docs/messaging)
 
 ## Usage
