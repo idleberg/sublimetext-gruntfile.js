@@ -52,9 +52,9 @@ Support for Travis CI is already built in and enabled. All you need to do is [en
 
 If you're already using the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package (available via Package Control), you can add the following to your `Fetch.sublime-settings` list of packages:
 
-    "sublimetext-gruntfile.js": "https://github.com/idleberg/sublimetext-gruntfile.js/archive/master.zip"
+    "sublimetext-gruntfile.js": "https://github.com/idleberg/sublimetext-gruntfile.js/archive/dist.zip"
 
-Next time when you're creating a package for Sublime Text, you can use the `Fetch: Package` command to download all files from this repository to your current project folder. **Careful, as this currently overwrites your README.md!**
+Next time when you're creating a package for Sublime Text, you can use the `Fetch: Package` command to download all files from this repository to your current project folder.
 
 ## Contributions
 
