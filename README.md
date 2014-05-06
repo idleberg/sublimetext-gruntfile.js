@@ -56,7 +56,7 @@ If you're using the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) pa
 
 Next time when you're creating a package for Sublime Text, you can use the `Fetch: Package` command to download all files from this repository to your current project folder.
 
-Be careful if your existing project contains the files `.gitignore`, `.travis.yml`, `Gruntfile.js` or `package.json` – these will be overwritten using Fetch!
+Be careful if your existing project contains the files `.gitignore`, `.travis.yml`, `Gruntfile.js` or `package.json`, as these *will be* overwritten using Fetch!
 
 ## Contributions
 
