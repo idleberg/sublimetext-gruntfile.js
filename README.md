@@ -1,4 +1,4 @@
-# sublimetext-gruntfile.js [![Build Status](https://secure.travis-ci.org/idleberg/sublimetext-gruntfile.js.png)](http://travis-ci.org/idleberg/sublimetext-gruntfile.js)
+# sublimetext-gruntfile.js
 
 **This project is work-in-progress, [help](#contributions) is greatly appreciated!**
 
