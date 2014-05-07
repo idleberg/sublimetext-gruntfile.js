@@ -32,7 +32,7 @@ File extension         | Type | Function
 
 Download the files using [git clone](http://git-scm.com/docs/git-clone) or the [`.zip`](https://github.com/idleberg/sublimetext-gruntfile.js/archive/master.zip) file option. Place the `.travis.yml`, `Gruntfile.js` and `package.json` in the folder of your Sublime Text package (or whatever files you would like to test). Unless there is a `.gitignore` file in the same folder, you should copy it as well – or add `node_modules/` to an existing file.
 
-You also need to have npm (“Node package manager”) [installed](http://www.joyent.com/blog/installing-node-and-npm/) before you can make use of any of this.
+You also need to have npm [installed](http://www.joyent.com/blog/installing-node-and-npm/) before you can make use of any of this.
  
 ### Basic Usage
 
