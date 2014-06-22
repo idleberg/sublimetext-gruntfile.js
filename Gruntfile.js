@@ -18,7 +18,8 @@
         '**/*.sublime-menu',
         '**/*.sublime-settings',
         '**/*.sublime-theme',
-        'messages.json'
+        'messages.json',
+        '!node_modules/**/*.*'
     ];
 
     var pyFiles = [
@@ -32,7 +33,14 @@
         '**/*.tmLanguage',
         '**/*.tmPreferences',
         '**/*.tmSnippet',
-        '**/*.tmTheme'
+        '**/*.tmTheme',
+        '**/*.xml',
+        '*.bbcolors',
+        '*.dvtcolortheme',
+        '*.icls',
+        '*.itermcolors',
+        '*.terminal',
+        '!node_modules/**/*.*'
     ];
 
     grunt.initConfig({
