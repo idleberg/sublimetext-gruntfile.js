@@ -13,6 +13,6 @@
     "grunt-xml-validator": "~1.1.1"
   },
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "grunt lint --verbose"
   }
 }

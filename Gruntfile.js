@@ -86,10 +86,12 @@
     grunt.loadNpmTasks('grunt-jsonlint');
     grunt.loadNpmTasks('grunt-pylint');
     grunt.loadNpmTasks('grunt-xml-validator');
-    grunt.registerTask('default', ['jsonlint', 'xml_validator']);
+    grunt.registerTask('default', 'lint');
 
     // task shortcuts
-    grunt.registerTask('json', 'jsonlint');
-    grunt.registerTask('py', 'pylint');
-    grunt.registerTask('xml', 'xml_validator');
+    grunt.registerTask('json',   'jsonlint');
+    grunt.registerTask('lint',  ['jsonlint', 'xml_validator']);
+    grunt.registerTask('py',     'pylint');
+    grunt.registerTask('travis', 'lint');
+    grunt.registerTask('xml',    'xml_validator');
  };
