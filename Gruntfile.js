@@ -89,9 +89,9 @@
     grunt.registerTask('default', 'lint');
 
     // task shortcuts
-    grunt.registerTask('json', 'jsonlint');
-    grunt.registerTask('lint', ['jsonlint', 'xml_validator']);
-    grunt.registerTask('py', 'pylint');
+    grunt.registerTask('json',   'jsonlint');
+    grunt.registerTask('lint',  ['jsonlint', 'xml_validator']);
+    grunt.registerTask('py',     'pylint');
     grunt.registerTask('travis', 'lint');
-    grunt.registerTask('xml', 'xml_validator');
+    grunt.registerTask('xml',    'xml_validator');
  };
