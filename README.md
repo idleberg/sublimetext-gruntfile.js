@@ -1,4 +1,4 @@
-# sublimetext-gruntfile.js [![devDependency Status](https://david-dm.org/idleberg/sublimetext-gruntfile.js/dev-status.png)](https://david-dm.org/idleberg/sublimetext-gruntfile.js#info=devDependencies)
+# sublimetext-gruntfile.js [![devDependencies](https://david-dm.org/idleberg/sublimetext-gruntfile.js/dev-status.svg)](https://david-dm.org/idleberg/sublimetext-gruntfile.js#info=devDependencies)
 
 **This project is work-in-progress, [help](#contributions) is greatly appreciated!**
 
