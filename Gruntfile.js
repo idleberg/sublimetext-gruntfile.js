@@ -1,10 +1,10 @@
  /*
- * sublimetext-gruntfile.js
- * https://github.com/idleberg/sublimetext-gruntfile.js
- *
- * Copyright (c) 2014 Jan T. Sott
- * Licensed under the MIT license.
- */
+  * sublimetext-gruntfile.js
+  * https://github.com/idleberg/sublimetext-gruntfile.js
+  *
+  * Copyright (c) 2014 Jan T. Sott
+  * Licensed under the MIT license.
+  */
  
  module.exports = function(grunt) {
 
