@@ -1,9 +1,10 @@
 {
-  "name": "sublime-lint",
+  "name": "sublimetext-gruntfile.js",
   "description": "Lint tasks for Sublime Text packages",
   "version" : "0.0.2",
   "author" : "Jan T. Sott",
   "license" : "MIT",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/idleberg/sublimetext-gruntfile.js"
@@ -19,6 +20,11 @@
     "grunt-pylint":        "~0.4.0",
     "grunt-xml-validator": "~1.1.1"
   },
+  "files": [
+    ".travis.yml",
+    "Gruntfile.js"
+  ],
+  "readmeFilename": "README.md",
   "keywords": [
     "lint",
     "linter",

@@ -37,7 +37,7 @@ You also need to have npm [installed](http://www.joyent.com/blog/installing-node
 ### Basic Usage
 
 1. Upon first use, perform `npm install` to download all required packages
-2. Run `grunt` to run the default tests
+2. Run `grunt lint` to run the default tests
 
 ### Optional Usage
 
