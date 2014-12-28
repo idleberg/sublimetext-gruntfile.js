@@ -1,6 +1,6 @@
-# sublimetext-gruntfile.js [![devDependencies](https://david-dm.org/idleberg/sublimetext-gruntfile.js/dev-status.svg)](https://david-dm.org/idleberg/sublimetext-gruntfile.js#info=devDependencies)
+# sublimetext-gruntfile.js 
 
-**This project is work-in-progress, [help](#contributions) is greatly appreciated!**
+[![David](https://img.shields.io/david/dev/idleberg/sublimetext-gruntfile.svg?style=flat-square)](https://david-dm.org/idleberg/sublimetext-gruntfile#info=devDependencies)
 
 A simple `Gruntfile` for Sublime Text package developers to test their XML and JSON files. Tests can be automated through [Travis CI](https://travis-ci.org/).
 
@@ -60,10 +60,6 @@ If you're using the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) pa
 Next time when you're creating a package for Sublime Text, you can use the `Fetch: Package` command to download all files from this repository to your current project folder.
 
 Be careful if your existing project contains the files `.gitignore`, `.travis.yml`, `Gruntfile.js` or `package.json`, as these *will be* overwritten using Fetch!
-
-## Contributions
-
-I guess it would be more convenient to turn this into a Sublime Text package, but I don't have enough experience yet to get there. A good starting point could be a modified version of the [Nettuts+ Fetch](https://github.com/weslly/Nettuts-Fetch) package. If you know Python and would like to help, please get in touch!
 
 ## License
 
