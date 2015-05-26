@@ -1,6 +1,6 @@
 # sublimetext-gruntfile.js 
 
-[![David](https://img.shields.io/david/dev/idleberg/sublimetext-gruntfile.svg?style=flat-square)](https://david-dm.org/idleberg/sublimetext-gruntfile#info=devDependencies)
+[![Travis](https://img.shields.io/travis/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://travis-ci.org/idleberg/sublimetext-gruntfile.js)
 
 A simple `Gruntfile` for Sublime Text package developers to test their XML and JSON files. Tests can be automated through [Travis CI](https://travis-ci.org/).
 
