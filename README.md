@@ -1,6 +1,6 @@
 # sublimetext-gruntfile.js 
 
-[![GitHub tag](https://img.shields.io/github/tag/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://github.com/idleberg/sublimetext-gruntfile.js/tags)
+[![GitHub release](https://img.shields.io/github/release/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://github.com/idleberg/sublimetext-gruntfile.js/releases)
 [![Travis](https://img.shields.io/travis/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://travis-ci.org/idleberg/sublimetext-gruntfile.js)
 [![David](https://img.shields.io/david/dev/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://david-dm.org/idleberg/sublimetext-gruntfile.js#info=devDependencies)
 
