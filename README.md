@@ -4,22 +4,23 @@
 [![Travis](https://img.shields.io/travis/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://travis-ci.org/idleberg/sublimetext-gruntfile.js)
 [![David](https://img.shields.io/david/dev/idleberg/sublimetext-gruntfile.js.svg?style=flat-square)](https://david-dm.org/idleberg/sublimetext-gruntfile.js#info=devDependencies)
 
-A simple `Gruntfile` for Sublime Text package developers to test their XML and JSON files. Tests can be automated through [Travis CI](https://travis-ci.org/).
+A simple `Gruntfile` for Sublime Text package developers to test their JSON, YAML and JSON files. Tests can be automated through [Travis CI](https://travis-ci.org/).
 
 Supported file types:
 
 File extension         | Type | Function
 -----------------------|------|---------
-`.JSON-tmLanguage`     | JSON | [Sublime Text Syntax Definitions](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/syntaxdefs.html)
+`.JSON-tmLanguage`     | JSON | [Sublime Text Syntax Definitions](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)
 `.plist`               | XML  | [Property List](https://developer.apple.com/library/Mac/documentation/Darwin/Reference/ManPages/man5/plist.5.html)
-`.sublime-build`       | JSON | [Sublime Text Build Systems](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/build_systems.html)
-`.sublime-commands`    | JSON | [Sublime Text Command Palette](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/command_palette.html)
-`.sublime-completions` | JSON | [Sublime Text Completions](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/completions.html)
-`.sublime-keymap`      | JSON | [Sublime Text Key Bindings](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/key_bindings.html)
-`.sublime-macro`       | JSON | [Sublime Text Macros](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/macros.html?highlight=macro)
-`.sublime-menu`        | JSON | [Sublime Text Menus](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/customization/menus.html?highlight=menu)
-`.sublime-settings`    | JSON | [Sublime Text Settings](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/settings.html)
-`.sublime-snippet`     | XML  | [Sublime Text Snippets](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/snippets.html)
+`.sublime-build`       | JSON | [Sublime Text Build Systems](https://docs.sublimetext.info/en/latest/file_processing/build_systems.html)
+`.sublime-commands`    | JSON | [Sublime Text Command Palette](https://docs.sublimetext.info/en/latest/reference/command_palette.html)
+`.sublime-completions` | JSON | [Sublime Text Completions](https://docs.sublimetext.info/en/latest/extensibility/completions.html)
+`.sublime-keymap`      | JSON | [Sublime Text Key Bindings](https://docs.sublimetext.info/en/latest/reference/key_bindings.html)
+`.sublime-macro`       | JSON | [Sublime Text Macros](https://docs.sublimetext.info/en/latest/extensibility/macros.html)
+`.sublime-menu`        | JSON | [Sublime Text Menus](https://docs.sublimetext.info/en/latest/customization/menus.html)
+`.sublime-settings`    | JSON | [Sublime Text Settings](https://docs.sublimetext.info/en/latest/customization/settings.html)
+`.sublime-snippet`     | XML  | [Sublime Text Snippets](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)
+`.sublime-syntax `     | YAML   | [Sublime Text Syntax Definitations](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)
 `.sublime-theme`       | JSON | Sublime Text Theme
 `.tmCommand`           | XML  | [TextMate Commands](http://manual.macromates.com/en/commands)
 `.tmLanguage`          | XML  | [TextMate Language Grammars](http://manual.macromates.com/en/language_grammars)
@@ -44,6 +45,7 @@ You also need to have npm [installed](http://www.joyent.com/blog/installing-node
 ### Optional Usage
 
 * Use `grunt json` to lint all JSON files
+* Use `grunt yaml` to lint all YAML files
 * Use `grunt xml` to validate all XML files
 * Use `grunt watch` to run all tasks in background while editing your files
 
