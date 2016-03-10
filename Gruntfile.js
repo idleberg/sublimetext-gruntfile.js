@@ -2,7 +2,7 @@
   * sublimetext-gruntfile.js
   * https://github.com/idleberg/sublimetext-gruntfile.js
   *
-  * Copyright (c) 2014 Jan T. Sott
+  * Copyright (c) 2014-2016 Jan T. Sott
   * Licensed under the MIT license.
   */
  
